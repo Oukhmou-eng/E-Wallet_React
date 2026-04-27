@@ -1034,7 +1034,7 @@ footer {
    POPUP TRANSFER
 ===================== */
 .popup-overlay {
-  display: none;
+    display: flex; 
   position: fixed;
   inset: 0;
   width: 100%;
@@ -1047,9 +1047,6 @@ footer {
   animation: fadeIn 0.3s ease;
 }
 
-.popup-overlay.active {
-  display: flex;
-}
 
 .popup-content {
   background: white;
